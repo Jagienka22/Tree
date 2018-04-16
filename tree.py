@@ -101,11 +101,7 @@ class TreeTests(unittest.TestCase):
     self.assertEqual(Tree(5, Tree(3, Tree(2), Tree(5)), Tree(7, Tree(1), Tree(0, Tree(2), Tree(8, None, Tree(5))))).median(), 4.0)
 
 
-def main():
-  print str(Tree(5, Tree(3, Tree(2), Tree(5)), Tree(7, Tree(1), Tree(0, Tree(2), Tree(8, None, Tree(5))))))
-
 if __name__ == "__main__":
-  main()
   unittest.main()
 
 
